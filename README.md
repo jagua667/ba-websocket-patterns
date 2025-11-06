@@ -23,19 +23,19 @@ Das Feedback erfahrener Softwareentwickler:innen dient der qualitativen Bewertun
 ## Struktur
 Jedes Pattern besteht aus zwei Dateien, die jeweils eine vereinfachte Implementierung der Nachrichtenlogik darstellen:
 
-src
-├── services
-│   └── notifications
-│       ├── mediatorNotifier.js
-│       ├── observerNotifier.js
-│       └── pubsubNotifier.js
-└── websocket
-    ├── DistributionStrategy.js
-    ├── MediatorStrategy.js
-    ├── ObserverStrategy.js
-    ├── PubSubStrategy.js
-    ├── strategies.config.js
-    └── WebSocketContext.js
+- src
+  - services
+    - notifications
+    - mediatorNotifier.js
+    - observerNotifier.js
+    - pubsubNotifier.js
+  - websocket
+    - DistributionStrategy.js
+    - MediatorStrategy.js
+    - ObserverStrategy.js
+    - PubSubStrategy.js
+    - strategies.config.js
+    - WebSocketContext.js
 
 Alle Implementierungen basieren auf denselben funktionalen Anforderungen:
 > Verwaltung von Fitnesskursen mit Echtzeit-Benachrichtigungen,  
