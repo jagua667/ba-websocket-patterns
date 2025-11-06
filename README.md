@@ -25,17 +25,19 @@ Jedes Pattern besteht aus zwei Dateien, die jeweils eine vereinfachte Implementi
 
 src/services/notifications/
 └── observerNotifier.js
+
 src/websocket/
 └── ObserverStrategy.js
 
 src/services/notifications/
 └── mediatorNotifier.js
+
 src/websocket/
 └── MediatorStrategy.js
 
-
 src/services/notifications/
 └── pubsubNotifier.js
+
 src/websocket/
 └── PubSubStrategy.js
 
